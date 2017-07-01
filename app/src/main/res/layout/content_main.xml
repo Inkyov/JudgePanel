@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="landscape"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".JudgePanel"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/red2"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/red3"
+        android:layout_toEndOf="@+id/red3"
+        android:backgroundTint="#ff0000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/blue2"
+        android:layout_below="@+id/blue3"
+        android:layout_toLeftOf="@+id/blue4"
+        android:layout_toStartOf="@+id/blue4"
+        android:backgroundTint="#0000ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/red3"
+        android:layout_above="@+id/red2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#ff0000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/red4"
+        android:layout_above="@+id/red2"
+        android:layout_toRightOf="@+id/red2"
+        android:layout_toEndOf="@+id/red2"
+        android:backgroundTint="#ff0000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/blue3"
+        android:layout_alignTop="@+id/red4"
+        android:layout_toLeftOf="@+id/blue2"
+        android:layout_toStartOf="@+id/blue2"
+        android:backgroundTint="#0000ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/blue4"
+        android:layout_alignBottom="@+id/blue3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#0000ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/red5"
+        android:layout_above="@+id/red3"
+        android:layout_toRightOf="@+id/red3"
+        android:layout_toEndOf="@+id/red3"
+        android:backgroundTint="#ff0000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/blue5"
+        android:layout_alignBottom="@+id/red5"
+        android:layout_toRightOf="@+id/blue3"
+        android:layout_toEndOf="@+id/blue3"
+        android:backgroundTint="#0000ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/red1"
+        android:layout_above="@+id/red5"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/red4"
+        android:layout_alignEnd="@+id/red4"
+        android:backgroundTint="#ff0000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/blue1"
+        android:layout_alignBottom="@+id/red1"
+        android:layout_alignRight="@+id/blue4"
+        android:layout_alignEnd="@+id/blue4"
+        android:layout_alignLeft="@+id/blue3"
+        android:layout_alignStart="@+id/blue3"
+        android:backgroundTint="#0000ff" />
+</RelativeLayout>

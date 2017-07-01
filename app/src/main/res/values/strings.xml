@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JudgePanel</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip">IP Address</string>
+    <string name="port">Port</string>
+    <string name="save">Save</string>
+</resources>
